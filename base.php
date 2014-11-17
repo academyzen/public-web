@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8">
   <title>Metronic One Page</title>
-
+  <?include('includes/meta.php');?>
   <link rel="shortcut icon" href="favicon.ico">
 
   <!-- Fonts START -->
@@ -37,7 +37,12 @@
 </head>
 <!--DOC: menu-always-on-top class to the body element to set menu on top -->
 <body>
+  <?include('includes/header.php');?>
 
+  <?include('includes/services.php');?>
+
+  <?include('includes/pre-footer.php');?>
+  <?include('includes/footer.php');?>
   <!--[if lt IE 9]>
     <script src="../../assets/global/plugins/respond.min.js"></script>
   <![endif]-->
