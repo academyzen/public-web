@@ -38,9 +38,17 @@
 <!--DOC: menu-always-on-top class to the body element to set menu on top -->
 <body>
   <?include('includes/header.php');?>
-
+  <?include('includes/promo.php');?>
+  <?include('includes/about.php');?>
   <?include('includes/services.php');?>
-
+  <?include('includes/message.php');?>
+  <?include('includes/team.php');?>
+  <?include('includes/choose-us.php');?>
+  <?include('includes/checkout-block .php');?>
+  <?include('includes/facts.php');?>
+  <?include('includes/prices.php');?>
+  <?include('includes/testimonials.php');?>
+  <?include('includes/partners.php');?>
   <?include('includes/pre-footer.php');?>
   <?include('includes/footer.php');?>
   <!--[if lt IE 9]>
